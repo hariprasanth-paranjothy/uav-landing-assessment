@@ -143,13 +143,19 @@ decision-making process, including:
 - Safety score, recommendation, and explanation
 
 <p align="center">
-  <img src="assets/Im1.webp" width="49%" alt="Landing Assessment Example 1">
-  <img src="assets/Im2.webp" width="49%" alt="Landing Assessment Example 2">
+  <img src="assets/Im1.webp" width="100%" alt="Landing Assessment Example 1">
 </p>
 
 <p align="center">
-  <img src="assets/Im3.webp" width="49%" alt="Landing Assessment Example 3">
-  <img src="assets/Im4.webp" width="49%" alt="Landing Assessment Example 4">
+  <img src="assets/Im2.webp" width="100%" alt="Landing Assessment Example 2">
+</p>
+
+<p align="center">
+  <img src="assets/Im3.webp" width="100%" alt="Landing Assessment Example 3">
+</p>
+
+<p align="center">
+  <img src="assets/Im4.webp" width="100%" alt="Landing Assessment Example 4">
 </p>
 
 Each assessment is produced automatically by the foundation-model perception
