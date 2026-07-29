@@ -133,11 +133,22 @@ kaggle datasets download -d bulentsiyah/semantic-drone-dataset -p data/ --unzip
 Each run produces a four-panel dashboard — original image, detected +
 segmented obstructions, landing geometry overlay (distance-transform heatmap,
 candidate disks, optimal landing circle with factor-of-safety ring), and a
-score breakdown panel.
+score breakdown panel, saved as `<output-dir>/<image-stem>_assessment.png`
+alongside a JSON sidecar.
 
+To produce one and commit it as the README sample:
+
+```bash
+python scripts/run_analysis.py path/to/image.jpg --output-dir results --no-show
+cp results/<image-stem>_assessment.png assets/sample_assessment.png
+```
+
+`results/` is gitignored, which is why the sample is copied into `assets/`.
+Once it's there, reference it here:
+
+```markdown
 ![Sample assessment](assets/sample_assessment.png)
-
-*Illustrative example; scores and detections shown here are representative.*
+```
 
 ## Design notes
 
