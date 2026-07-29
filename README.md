@@ -41,7 +41,7 @@ plain-English rationale and a full breakdown of sub-scores.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/uav-landing-assessment.git
+git clone https://github.com/hariprasanth-paranjothy/uav-landing-assessment.git
 cd uav-landing-assessment
 python -m venv .venv && source .venv/bin/activate   # optional but recommended
 pip install -r requirements.txt
