@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "landing-assessment"
+version = "0.1.0"
+description = "Foundation-model UAV landing site risk assessment pipeline (Qwen2-VL + Grounding DINO + SAM + distance-transform geometric search)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Prasanth" }]
+
+dependencies = [
+    "torch>=2.1",
+    "transformers==4.45.2",
+    "accelerate==1.0.1",
+    "timm==1.0.11",
+    "supervision==0.24.0",
+    "qwen-vl-utils",
+    "opencv-python-headless>=4.9",
+    "numpy>=1.26",
+    "pillow>=10.0",
+    "matplotlib>=3.8",
+    "pandas>=2.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
